@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/Korean_Drama_In_Hindi_Dubbed_4u")
+                        InlineKeyboardButton("Main Channel", url="https://t.me/kxzen_x")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/KDrama_Chats_and_Discussions_4u"),
-                        InlineKeyboardButton("Facebook ID", url="https://www.facebook.com/MExAk1b")
+                        InlineKeyboardButton("Support Group", url="t.me/kxzen_x"),
+                        InlineKeyboardButton("Facebook ID", url="t.me/kxzen_x")
                     ]
                 ]
             )
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\n[Contact](https://t.me/MExAkib)",
+            await message.reply_text("Sorry, You are banned!\n\n[Contact](https://t.me/kxzen_x)",
                                      disable_web_page_preview=True)
             return
 
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/kmzakarialam/FileStoreBot")
+                                             url="lol")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/kmzakarialam/FileStoreBot")
+                                             url="lol")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/Korean_Drama_In_Hindi_Dubbed_4u")
+                        InlineKeyboardButton("Main Channel", url="https://t.me/kxzen_x")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/KDrama_Chats_and_Discussions_4u"),
-                        InlineKeyboardButton("Facebook ID", url="https://www.facebook.com/MExAk1b")
+                        InlineKeyboardButton("Support Group", url="https://t.me/kxzen_x"),
+                        InlineKeyboardButton("Facebook ID", url="https://t.me/kxzen_x")
                     ]
                 ]
             )
@@ -379,7 +379,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. [Contact](https://t.me/MExAkib)",
+                        text="Sorry Sir, You are Banned to use me. [Contact](https://t.me/kxzen_x)",
                         disable_web_page_preview=True
                     )
                     return
@@ -401,7 +401,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. [Contact](https://t.me/MExAkib)",
+                    text="Something went Wrong. [Contact](https://t.me/kxzen_x)",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/Korean_Drama_In_Hindi_Dubbed_4u"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/KDrama_Chats_and_Discussions_4u")
+                        InlineKeyboardButton("Main Channel", url="https://t.me/kxzen_x"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/kxzen_x")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
