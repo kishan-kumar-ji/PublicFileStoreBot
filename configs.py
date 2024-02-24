@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "22752348"))
-  API_HASH = os.environ.get("API_HASH", "5190a8e38585ba9a355f86a9dd9b38ce")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6847002483:AAG9OFt2LDjtNiKrZxVx0o9ysHHT4eGJzEQ")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "PublicFileStorageBot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002114992128"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6642047024"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://filestorebot:filestorebot@cluster0.i2p9vos.mongodb.net/?retryWrites=true&w=majority")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001682319978")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002092592326"))
+  API_ID = int(os.environ.get("API_ID", "25269253"))
+  API_HASH = os.environ.get("API_HASH", "a4f351103f9cb0eb6cfed99770f648ad")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6704331949:AAGpmMmvuXYsBijwSyGaNsrVa2F_1iu5J3M")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "filex_store_bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002065381146"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "5960791094"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://lillu:<password>@cluster0.j1pxf2k.mongodb.net/")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "0")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "0"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -31,17 +31,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 """
   ABOUT_DEV_TEXT = f"""
-Developer: @MExAkib
-
-Telegram: (https://t.me/MExAkib)
-
-Facebook: (https://www.facebook.com/MExAk1b)
-
-Instagram: (https://www.instagram.com/ig_4k1b)
-
-Twitter: (https://www.twitter.com/__4k1b__)
-
-GitHub: (https://www.github.com/kmzakarialam)
+Developer: @kxzen_x
 
 """
   HOME_TEXT = """
